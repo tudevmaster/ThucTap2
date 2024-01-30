@@ -1,0 +1,266 @@
+.title-section h4 {
+  font-size: 16px;
+  padding-right: 1055px;
+  padding-top: 100px;
+  font-weight: 600;
+}
+
+.swiper-container {
+}
+
+.slider-container {
+  width: 1500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-content {
+  display: flex;
+  animation: slideLeft 12s linear infinite;
+  animation-play-state: running;
+}
+
+.slide-item {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(1200px);
+  }
+  100% {
+    transform: translateX(-1200px);
+  }
+}
+
+.slider-container:hover .slider-content {
+  animation-play-state: paused;
+}
+.slider-content img {
+  width: 90px;
+  height: 90px;
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.title h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.title p {
+  padding-top: 10px;
+  color: #8e8e93 !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.col-lg-12-product {
+  padding-top: 100px;
+}
+
+.box-tab1 {
+  padding-top: 20px;
+  width: 100%;
+  max-width: 700px; /* Điều chỉnh theo ý muốn của bạn */
+  margin: 0 auto; /* Canh giữa phần tử */
+}
+
+.menu-tab1 {
+  list-style: none; /* Ẩn chấm đánh dấu của danh sách */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between; /* Canh ngang các phần tử */
+}
+
+.menu-tab1 li {
+  flex: 1; /* Chia đều không gian cho các phần tử */
+  text-align: center; /* Canh giữa văn bản trong mỗi ô */
+}
+
+.menu-tab1 h5 {
+  padding: 10px; /* Khoảng cách giữa văn bản và khung của ô */
+  margin: 0; /* Loại bỏ margin mặc định của thẻ h5 */
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 4px 18px 0px rgba(66, 71, 76, 0.1);
+}
+
+h5:hover {
+  color: #ffa920;
+}
+.frs {
+  color: #ffa920;
+}
+
+.wrap-item {
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between; /* Chia đều không gian giữa các card */
+  flex-wrap: wrap; /* Cho phép các card xuống dòng khi không đủ không gian */
+}
+
+.card {
+  width: calc(
+    25% - 10px
+  ); /* 25% chiều rộng mỗi card, trừ đi khoảng cách giữa các card (10px) */
+
+  padding: 15px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.box img {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.spa {
+  line-height: normal;
+  position: absolute;
+  top: 29px;
+  left: 28px;
+  padding: 1px 7px 1px 8px;
+  text-transform: capitalize;
+  color: #fff;
+  z-index: 9;
+  background-color: #ffa920;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.spaend {
+  line-height: normal;
+  position: absolute;
+  left: 28px;
+  padding: 1px 7px 1px 8px;
+  text-transform: capitalize;
+  color: #fff;
+  z-index: 9;
+  background-color: #ffa920;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #6e55ff;
+  top: 52px;
+}
+.save {
+  position: absolute;
+  top: 17px;
+  left: 276px;
+  z-index: 9;
+  border-top: 39px solid #fff5e0;
+  border-left: 44px solid transparent;
+  border-radius: 0 8px;
+}
+
+.save svg {
+  position: absolute;
+  z-index: 999;
+  margin-top: -32px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.iconbook {
+  z-index: 99;
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin-top: -30px;
+  margin-right: 7px;
+  color: #ffa920;
+  font-size: 12px;
+}
+
+.box {
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0px 4px 26px 0px rgba(66, 71, 76, 0.0784313725);
+  padding: 17px 17px 16px 17px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+.text-address {
+  font-size: 12px;
+}
+.price {
+  margin-top: 20px;
+  margin-left: -240px;
+  color: #ffa920;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+.author img {
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+}
+.author p {
+  font-size: 13px;
+}
+.name {
+  margin-left: -36px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.name p {
+  margin-left: -50px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e93;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dbdbdd;
+}
+
+.info div {
+  /* flex: 1; */
+  /* margin-right: 10px; */
+  /* Khoảng cách giữa các div */
+}
+
+.info div:first-child {
+  /* margin-right: 0; */
+  margin-left: 0;
+  /* Loại bỏ khoảng cách của div cuối cùng */
+}
+
+.info p {
+  font-size: 12px;
+  padding: 10px;
+  margin: 0;
+}
+.author {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.author p {
+  padding-top: 15px;
+}

@@ -146,3 +146,17 @@ select {
   margin-left: 800px;
   position: relative;
 }
+
+@media screen and (max-width: 600px) {
+  .col-lg-12 {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .image {
+    display: none;
+  }
+}
