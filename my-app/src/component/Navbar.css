@@ -66,15 +66,14 @@ nav {
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 40px 0 0 10px;
     transition: 0.3s ease-in-out;
+    position: absolute;
+    z-index: 10;
   }
 
-  #navbar.active {
-    right: 0px;
+  #navbar .btn-head {
+    padding: 10px;
   }
 
-  #navbar li {
-    margin-bottom: 25px;
-  }
   #mobile {
     display: block;
   }
@@ -86,13 +85,28 @@ nav {
 }
 
 .btn-head {
-  width: 150px;
-  height: 40px;
+  padding-top: 10px;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
   color: #fff;
   background-color: #ffa920;
   border-radius: 10px;
+  display: flex;
 }
 
 .icon {
   color: #fff;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 17px;
+}
+.sell {
+  border-left: 1px solid #fff;
+
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 700;
 }

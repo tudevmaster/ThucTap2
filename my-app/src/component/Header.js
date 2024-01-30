@@ -1,5 +1,12 @@
 import { React } from "react";
 import "./Header.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFill,
+  faHome,
+  faSearch,
+  faSliders,
+} from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   return (
     <>
@@ -24,19 +31,41 @@ const Header = () => {
           </div>
           <div className="content-tab">
             <div className="input-box">
-              <input type="text" placeholder="Enter value" />
+              <input type="text" placeholder="Type keyword..." />
               <select>
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
+                <option value="option1">Property types</option>
+                <option value="option1">Bunggalow</option>
+                <option value="option2">Apartment</option>
+                <option value="option2">House</option>
               </select>
               <select>
+                <option value="optionA">Location</option>
                 <option value="optionA">Option A</option>
                 <option value="optionB">Option B</option>
               </select>
+              <a className="iconfillter">
+                <FontAwesomeIcon icon={faSliders} />
+              </a>
+              <button className="btn-body">
+                {" "}
+                Search Now <FontAwesomeIcon icon={faSearch} />
+              </button>
+            </div>
+          </div>
+          <div className="number">
+            <div className="nleft">
+              <h1>1500+</h1>
+              <p>Property ready</p>
+            </div>
+            <div className="nright">
+              <h1>700+</h1>
+              <p>Happy customer</p>
             </div>
           </div>
         </div>
-        <div className="image"></div>
+        <div className="image">
+          <img src="https://images.unsplash.com/photo-1706520560614-709627d1a67f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"></img>
+        </div>
       </div>
     </>
   );

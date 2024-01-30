@@ -1,8 +1,8 @@
 import { React } from "react";
 import { Component } from "react";
 import "./Navbar.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -84,11 +84,11 @@ class Navbar extends Component {
               className={this.state.clicked ? "fas fa-times" : "fa fa-bars"}
             ></i>
           </div>
-          <button className="btn-head">
-            {/* <p className="icon">
+          <button className="btn-head active">
+            <p className="icon">
               <FontAwesomeIcon icon={faHome} />
-            </p> */}
-            Sell Property
+            </p>
+            <p className="sell">Sell Property</p>
           </button>
         </nav>
       </>
