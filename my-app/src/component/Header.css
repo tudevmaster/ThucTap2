@@ -1,0 +1,78 @@
+.col-lg-12 {
+  background-color: rgb(255, 222, 219);
+}
+.content h1 {
+  padding-right: 800px;
+  padding-top: 250px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.content p {
+  padding-right: 700px;
+  padding-top: 30px;
+  color: black !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e93;
+}
+
+.center {
+  text-align: center;
+}
+.menu-tab {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cột với chiều rộng bằng nhau */
+  gap: 10px; /* Khoảng cách giữa các cột */
+  list-style: none;
+  padding: 0;
+}
+
+.flat-tabs li.active {
+  background-color: #ffa920;
+  position: relative;
+  cursor: pointer;
+  width: 115px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  margin-left: 50px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.flat-tabs li.style {
+  background-color: #f5f5f5;
+  position: relative;
+  cursor: pointer;
+  width: 115px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
+  margin-left: -610px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.input-box {
+  /* align-items: center; */
+  margin-left: 50px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  width: 1100px;
+  background-color: white;
+  display: flex;
+  gap: 10px; /* Khoảng cách giữa các phần tử */
+  align-items: center; /* Canh giữa theo chiều dọc */
+}
+
+input,
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
