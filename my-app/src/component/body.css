@@ -5,9 +5,6 @@
   font-weight: 600;
 }
 
-.swiper-container {
-}
-
 .slider-container {
   width: 1500px;
   overflow: hidden;
@@ -65,6 +62,7 @@
 }
 
 .col-lg-12-product {
+  padding-bottom: 50px;
   padding-top: 100px;
 }
 
@@ -109,7 +107,6 @@ h5:hover {
 }
 
 .card-container {
-  padding-top: 50px;
   display: flex;
   justify-content: space-between; /* Chia đều không gian giữa các card */
   flex-wrap: wrap; /* Cho phép các card xuống dòng khi không đủ không gian */
@@ -135,7 +132,7 @@ h5:hover {
   line-height: normal;
   position: absolute;
   top: 29px;
-  left: 28px;
+  left: 19px;
   padding: 1px 7px 1px 8px;
   text-transform: capitalize;
   color: #fff;
@@ -149,7 +146,7 @@ h5:hover {
 .spaend {
   line-height: normal;
   position: absolute;
-  left: 28px;
+  left: 19px;
   padding: 1px 7px 1px 8px;
   text-transform: capitalize;
   color: #fff;
@@ -218,6 +215,7 @@ h5:hover {
 }
 .author p {
   font-size: 13px;
+  font-weight: 700;
 }
 .name {
   margin-left: -36px;
@@ -238,16 +236,8 @@ h5:hover {
   border-bottom: 1px solid #dbdbdd;
 }
 
-.info div {
-  /* flex: 1; */
-  /* margin-right: 10px; */
-  /* Khoảng cách giữa các div */
-}
-
 .info div:first-child {
-  /* margin-right: 0; */
   margin-left: 0;
-  /* Loại bỏ khoảng cách của div cuối cùng */
 }
 
 .info p {
@@ -263,4 +253,55 @@ h5:hover {
 
 .author p {
   padding-top: 15px;
+}
+
+.wrap-search {
+  padding-top: 50px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.area {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.map {
+  width: 100%;
+}
+
+.map img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.content2 {
+  margin-left: 10px;
+  color: white;
+  margin-top: -60px;
+  position: absolute;
+  z-index: 10;
+}
+
+.content2 h4 {
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+
+.content2 p {
+  margin-left: -20px;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.content-tab2 {
+  width: 100px;
+}
+
+.card-container2 {
+  display: flex;
+  justify-content: space-between; /* Chia đều không gian giữa các card */
+  flex-wrap: wrap; /* Cho phép các card xuống dòng khi không đủ không gian */
 }

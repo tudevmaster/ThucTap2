@@ -1,0 +1,40 @@
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1200px;
+  padding-bottom: 100px;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card1 {
+  flex: 0 0 calc(100% / 3);
+  /* Your card styles go here */
+}
+
+/* Dots styling */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 4px;
+  width: 50px;
+  background-color: #cecece;
+  margin-bottom: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Active dot styling */
+.dot.active {
+  background-color: #ffa920;
+}
