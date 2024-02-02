@@ -6,6 +6,7 @@ import Body from "./component/Body";
 import Sliders from "./component/Sliders";
 import Rent from "./component/Rent";
 import Agent from "./component/Agent";
+import Form from "./component/Form";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Sliders></Sliders>
       <Rent></Rent>
       <Agent></Agent>
+      <Form></Form>
     </div>
   );
 }

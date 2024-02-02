@@ -1,0 +1,137 @@
+@media (min-width: 768px) {
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .imagerent {
+    width: 100%;
+  }
+}
+.cont {
+  padding-bottom: 50px;
+}
+.imagerent img {
+  width: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  transform: scale(1);
+  vertical-align: middle;
+}
+
+/* .iconrent {
+  margin-top: -268px;
+  position: absolute;
+  z-index: 9999;
+  background-color: #ffa920;
+  width: 40px;
+  height: 268px;
+  transition: all 0.3s ease;
+  left: 439px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
+
+/* .iconitem {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: white;
+} */
+.imagerent img:hover {
+  opacity: 100px;
+}
+/* Agent.css */
+
+.contentrent {
+  display: flex;
+  justify-content: space-between; /* Distribute space between child elements */
+  padding: 10px;
+}
+
+.innerrent {
+  flex: 1;
+  margin-left: -190px;
+  margin-bottom: 10px;
+}
+
+.iconrent1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.call,
+.chat {
+  flex: 1; /* Make each column in .iconrent1 take up half of the available space */
+}
+
+/* Agent.css */
+
+.itemOne {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: #8e8e93;
+  cursor: pointer;
+}
+
+.itemOne:hover {
+  color: white;
+  background-color: #ffa920;
+}
+
+.rowt {
+  display: flex;
+}
+
+.col-lg-4 {
+  flex: 1; /* Each column takes up equal space */
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.boxrent {
+  position: relative; /* Make sure boxrent is a positioned container */
+}
+
+.iconrent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffa920;
+  width: 40px;
+  height: 268px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 1; /* Adjust the z-index if needed */
+}
+
+.iconitem {
+  margin: 15px 0;
+  font-size: 30px;
+  color: white;
+}
+
+.titleRent p {
+  margin-top: -100px;
+  color: #8e8e93 !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.titleRent a {
+  color: #ffa920;
+}

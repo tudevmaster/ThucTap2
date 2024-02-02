@@ -1,0 +1,189 @@
+/* YourComponent.css */
+
+.container {
+  display: flex;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  padding: 10px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-column {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+label,
+input {
+  margin-bottom: 5px;
+}
+.left-column h1 {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.left-column p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8e8e93;
+  padding-top: 10px;
+}
+.boxForm {
+  padding-top: 50px;
+  display: flex;
+  width: 500px;
+}
+.icn {
+  flex: 1;
+  padding: 10px;
+  font-size: 40px;
+  color: #8e8e93;
+}
+
+.cnt {
+  flex: 2;
+  padding: 10px;
+}
+
+.cnt h3 {
+  color: #8e8e93 !important;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: -180px;
+}
+
+.cnt p {
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+
+.boxForm1 {
+  padding-top: 50px;
+  display: flex;
+  width: 500px;
+}
+.icn1 {
+  flex: 1;
+  padding: 10px;
+  font-size: 40px;
+  color: #8e8e93;
+}
+
+.cnt1 {
+  flex: 2;
+  padding: 10px;
+}
+
+.cnt1 h3 {
+  color: #8e8e93 !important;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: -180px;
+}
+
+.cnt1 p {
+  margin-left: -115px;
+  color: #ffa920;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.boxForm2 {
+  padding-top: 50px;
+  display: flex;
+  width: 500px;
+}
+.icn2 {
+  flex: 1;
+  padding: 10px;
+  font-size: 40px;
+  color: #8e8e93;
+}
+
+.cnt2 {
+  flex: 2;
+  padding: 10px;
+}
+
+.cnt2 h3 {
+  color: #8e8e93 !important;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: -180px;
+}
+
+.cnt2 p {
+  margin-left: -130px;
+  color: #ffa920;
+  /* font-size: 30px; */
+  font-weight: 600;
+}
+
+/* YourFormComponent.css */
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #ffa920;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.contact p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8e8e93;
+  padding-top: 10px;
+}
+
+.contact h1 {
+  font-weight: 800;
+  font-size: 25px;
+}

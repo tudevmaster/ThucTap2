@@ -4,12 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBath,
   faBed,
-  faFill,
   faHeart,
   faHome,
   faPlus,
-  faSearch,
-  faSliders,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Body = () => {
@@ -685,18 +682,6 @@ const Body = () => {
         </div>
       </div>
       {/* _______________________________________________________________________________MEET AGENT________________________________________________________________ */}
-      <div className="col-lg-12-product">
-        <div className="title">
-          <h2>Properties for sale</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel
-            lobortis justo
-          </p>
-        </div>
-        <div className="slider-container2">
-          <div className="slider-content2"></div>
-        </div>
-      </div>
     </>
   );
 };
