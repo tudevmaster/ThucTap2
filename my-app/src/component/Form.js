@@ -1,13 +1,25 @@
 import { React } from "react";
 import "./Form.css";
+import "./Agent.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faArrowCircleRight,
+  faArrowRight,
   faEnvelope,
+  faFolderOpen,
   faMap,
   faPhone,
   faPlane,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
-import { faRocketchat, faThinkPeaks } from "@fortawesome/free-brands-svg-icons";
+import {
+  faRocketchat,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faInvision,
+  faOpencart,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Form = () => {
   return (
@@ -61,28 +73,60 @@ const Form = () => {
                 </h1>
                 <p>We will respond as soon as we receive your message.</p>
               </div>
-              <div>
+              <div className="name">
                 <label htmlFor="yourName">Your Name:</label>
-                <input type="text" id="yourName" name="yourName" />
+                <input
+                  type="text"
+                  id="yourName"
+                  name="yourName"
+                  placeholder="
+                  ___Your name"
+                />
+                <div className="icntfr">
+                  <FontAwesomeIcon icon={faUser} style={{ color: "#ffa920" }} />
+                </div>
               </div>
 
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <div>
                   <label htmlFor="phoneNumber">Phone Number:</label>
-                  <input type="tel" id="phoneNumber" name="phoneNumber" />
+                  <input
+                    type="tel"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="___Phone"
+                  />
+                  <div className="icntNe">
+                    <FontAwesomeIcon
+                      icon={faPhone}
+                      style={{ color: "#ffa920" }}
+                    />
+                  </div>
                 </div>
                 <div>
                   <label htmlFor="email">Email:</label>
-                  <input type="email" id="email" name="email" />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="___Email"
+                  />
+                  <div className="icntNe">
+                    <FontAwesomeIcon
+                      icon={faEnvelope}
+                      style={{ color: "#ffa920" }}
+                    />
+                  </div>
                 </div>
               </div>
 
               <div>
-                <label htmlFor="selectOption">Select Option:</label>
+                <label htmlFor="selectOption">Properties type:</label>
                 <select id="selectOption" name="selectOption">
-                  <option value="option1">Option 1</option>
-                  <option value="option2">Option 2</option>
-                  <option value="option3">Option 3</option>
+                  <option value="option1">Choose:</option>
+                  <option value="option1">Apartment</option>
+                  <option value="option2">House</option>
+                  <option value="option3">Rent</option>
                 </select>
               </div>
 
@@ -93,7 +137,14 @@ const Form = () => {
                   name="message"
                   rows="4"
                   cols="50"
+                  placeholder="_____Your message"
                 ></textarea>
+                <div className="icntM">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    style={{ color: "#ffa920" }}
+                  />
+                </div>
               </div>
 
               <div></div>
@@ -105,6 +156,120 @@ const Form = () => {
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+      <div className="blog">
+        <div className="col-lg-12-product">
+          <div className="title">
+            <h2>Form our blog</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed
+              tristique metus proin id lorem odio
+            </p>
+          </div>
+        </div>{" "}
+        <div className="cont">
+          <div className="rowt">
+            <div className="col-lg-4 col-md-4">
+              <div className="boxrent">
+                <div className="imagerent">
+                  <img
+                    src="https://media.istockphoto.com/id/1386471399/fr/photo/int%C3%A9rieur-moderne-de-salle-de-vie-rendu-3d.webp?b=1&s=170667a&w=0&k=20&c=Tw6rBD64fB3dEOHZTsb7rre16pHa92dAHAosiBtyMDg="
+                    alt="Agent"
+                  />
+                  <div className="imgBlog">
+                    <div className="title-1">Aprill</div>
+                    <div className="title-2">
+                      {" "}
+                      <FontAwesomeIcon
+                        icon={faFolderOpen}
+                        style={{ color: "#8e8e93" }}
+                      />
+                      <p>Housing</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="contentrent1">
+                  <h3 className="cntBlog">
+                    We are hiring ‘moderately,’ says Compass CEO
+                  </h3>
+                  <p>
+                    Read more{" "}
+                    <FontAwesomeIcon
+                      icon={faArrowRight}
+                      // style={{ color: "white" }}
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>{" "}
+            <div className="col-lg-4 col-md-4">
+              <div className="boxrent">
+                <div className="imagerent">
+                  <img
+                    src="https://media.istockphoto.com/id/1386471399/fr/photo/int%C3%A9rieur-moderne-de-salle-de-vie-rendu-3d.webp?b=1&s=170667a&w=0&k=20&c=Tw6rBD64fB3dEOHZTsb7rre16pHa92dAHAosiBtyMDg="
+                    alt="Agent"
+                  />
+                  <div className="imgBlog">
+                    <div className="title-1">Aprill</div>
+                    <div className="title-2">
+                      {" "}
+                      <FontAwesomeIcon
+                        icon={faFolderOpen}
+                        style={{ color: "#8e8e93" }}
+                      />
+                      <p>Housing</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="contentrent1">
+                  <h3 className="cntBlog">
+                    We are hiring ‘moderately,’ says Compass CEO
+                  </h3>
+                  <p>
+                    Read more{" "}
+                    <FontAwesomeIcon
+                      icon={faArrowRight}
+                      // style={{ color: "white" }}
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>{" "}
+            <div className="col-lg-4 col-md-4">
+              <div className="boxrent">
+                <div className="imagerent">
+                  <img
+                    src="https://media.istockphoto.com/id/1386471399/fr/photo/int%C3%A9rieur-moderne-de-salle-de-vie-rendu-3d.webp?b=1&s=170667a&w=0&k=20&c=Tw6rBD64fB3dEOHZTsb7rre16pHa92dAHAosiBtyMDg="
+                    alt="Agent"
+                  />
+                  <div className="imgBlog">
+                    <div className="title-1">Aprill</div>
+                    <div className="title-2">
+                      {" "}
+                      <FontAwesomeIcon
+                        icon={faFolderOpen}
+                        style={{ color: "#8e8e93" }}
+                      />
+                      <p>Housing</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="contentrent1">
+                  <h3 className="cntBlog">
+                    We are hiring ‘moderately,’ says Compass CEO
+                  </h3>
+                  <p>
+                    Read more{" "}
+                    <FontAwesomeIcon
+                      icon={faArrowRight}
+                      // style={{ color: "white" }}
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>{" "}
           </div>
         </div>
       </div>

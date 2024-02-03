@@ -131,7 +131,7 @@ input {
 /* YourFormComponent.css */
 
 form {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;
@@ -139,28 +139,21 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-div {
-  margin-bottom: 15px;
+#name input {
+  margin-left: 80px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 11px 14px 20px 46px;
 }
-
+#yourName {
+  padding-left: 10px;
+}
 label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-}
-
-input,
-select,
-textarea {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-textarea {
-  resize: vertical;
 }
 
 button {
@@ -186,4 +179,82 @@ button:hover {
 .contact h1 {
   font-weight: 800;
   font-size: 25px;
+}
+
+.icntfr {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -40px;
+}
+
+.place {
+  padding-left: 30px;
+}
+
+.icntNe {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -40px;
+}
+
+.icntM {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -65px;
+}
+
+.contentrent1 {
+  padding-top: 10px;
+}
+
+.contentrent1 h3 {
+  padding-bottom: 20px;
+}
+
+.cntBlog:hover {
+  color: #ffa920;
+}
+
+.contentrent1 p {
+  font-weight: 600;
+  font-size: 13px;
+  color: #ffa920;
+}
+
+.blog {
+  background-color: #f3f3f5;
+}
+
+.imgBlog {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 160px;
+  height: 32px;
+  background-color: #fbfbfb;
+  border-radius: 6px;
+  transform: translateX(-50%);
+  padding: 5px 15px;
+}
+
+.title-2 {
+  display: flex;
+  margin-left: 16px;
+}
+
+.title-2 p {
+  color: #ffa920;
+}
+
+.title-1 {
+  font-weight: 600;
 }
