@@ -7,6 +7,7 @@ import Rent from "./component/Rent";
 import Agent from "./component/Agent";
 import Form from "./component/Form";
 import Customer from "./component/Customer";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Agent></Agent>
       <Form></Form>
       <Customer></Customer>
+      <Footer></Footer>
     </div>
   );
 }

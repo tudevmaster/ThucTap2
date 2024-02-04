@@ -4,7 +4,7 @@ import "./Customer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRocketchat } from "@fortawesome/free-brands-svg-icons";
 
-const SliderComponent1 = () => {
+const Customer = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const totalSlides = 5; // Set the total number of slides
@@ -97,4 +97,4 @@ const SliderComponent1 = () => {
   );
 };
 
-export default SliderComponent1;
+export default Customer;
